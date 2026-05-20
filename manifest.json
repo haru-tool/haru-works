@@ -1,0 +1,20 @@
+{
+  "name": "haru works",
+  "short_name": "haru works",
+  "icons": [
+    {
+      "src": "assets/haru-icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/haru-icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/haru-works/",
+  "display": "browser",
+  "theme_color": "#0F172A",
+  "background_color": "#ffffff"
+}
