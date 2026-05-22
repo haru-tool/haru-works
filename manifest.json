@@ -13,7 +13,7 @@
       "type": "image/png"
     }
   ],
-  "start_url": "/haru-works/",
+  "start_url": "/",
   "display": "browser",
   "theme_color": "#0F172A",
   "background_color": "#ffffff"
