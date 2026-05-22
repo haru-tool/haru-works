@@ -38,8 +38,8 @@
 - Googleフォームを作成する
 - Googleフォームにスパム対策用の確認質問を入れる
 - HPに「フォームで問い合わせる」導線を追加する
-- 公開先を GitHub Pages または Cloudflare Pages に決める
-- 独自ドメインを公開先に接続する
+- ✅ 公開先を GitHub Pages または Cloudflare Pages に決める（GitHub Pages）
+- ✅ 独自ドメインを公開先に接続する
 - 公開不要ファイルが含まれていないか確認する
 
 ## 共通スキル運用
@@ -58,4 +58,4 @@
 - 2026-05-18: CTAは「無料で相談する」を主導線に統一。相談具体例を6件追加し、CC0表記のあるWikimedia Commons掲載画像を `assets/workspace.jpg` に保存して反映。390px幅と1440px幅で横はみ出しなし、画像読み込み済みを確認。
 - 2026-05-22: 商用公開準備として、第一候補を `haru-it-works.com` に決定。RDAP確認では3候補とも登録情報なしのため、取得できる可能性が高いと判断。
 - 2026-05-22: `haru-it-works.com` 取得後、GitHub Pages用に `CNAME` を追加し、OGP画像URLとmanifestの開始URLを独自ドメイン前提に更新。
-- 2026-05-22: Cloudflare DNSにGitHub Pages用のAレコード4件と、`www` 用CNAMEを追加。GitHub側への反映は未実施。
+- 2026-05-22: Cloudflare DNSにGitHub Pages用のAレコード4件と、`www` 用CNAMEを追加。GitHubへ `CNAME` を反映し、`https://haru-it-works.com/` がHTTP 200で表示されることを確認。
